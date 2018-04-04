@@ -4,7 +4,7 @@ from pytube import YouTube
 
 search = "https://www.youtube.com/results"
 search_term = input("Enter the name of the Video: ")
-params = {"search_query" : "youtube " + search_term}
+params = {"search_query" : search_term}
 
 r = requests.get(search, params=params)
 soup = BeautifulSoup(r.text, 'html5lib')
