@@ -10,7 +10,7 @@ Modules used:
 ## Usage
 
 You will need a python interpreter to use this scipt. Run the script and enter the name of the video you want to to download.
-The video will be downloaded to the folder in which you copied the file.
+The video will be downloaded to the directory in which you executed the script.
 
 More updates to this will be comin soon.
 
