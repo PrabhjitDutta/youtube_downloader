@@ -18,7 +18,7 @@ I plan to make this a CLA and add many more features.
 
 ## Update into a CLA
 
-This scipt have been modified to function as a command line application. Youcan still check the original file as it's still there as 'main.py'
+This scipt have been modified to function as a command line application. You can still check the original file as it's still there as 'main.py'
 While the new files added are 'ytd.py' and 'setup.py'. 
 
 The Module added is:

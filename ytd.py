@@ -8,9 +8,8 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
 
 @click.command(context_settings=CONTEXT_SETTINGS)
-@click.option('dir', '-d', type=click.Path(exists=True), default=os.getcwd(), help='give you the option to chose '
-                                                                                   'directory where you want to '
-                                                                                   'save the video')
+@click.option('dir', '-d', type=click.Path(exists=True), default=os.getcwd(), help='give you the option to chose directory where you'
+                                                                                    'want to save the video')
 @click.argument('search_term', type=click.STRING)
 def cli(search_term, dir):
 
